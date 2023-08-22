@@ -15,4 +15,4 @@ result_1 = (150.00 / 5) * 1.12
 rounded = round(result_1, 2)
 rounded = "{:.2f}".format(result_1)
 
-print(rounded)
+print(f"Each person should pay: ${rounded}")
