@@ -13,5 +13,6 @@ input("What percentage tip would you like to give ? 10, 12 or 15 ? ")
 input("How many people to split the bill ? ")
 result_1 = (150.00 / 5) * 1.12
 rounded = round(result_1, 2)
+rounded = "{:.2f}".format(result_1)
 
 print(rounded)
