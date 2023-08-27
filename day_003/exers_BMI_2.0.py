@@ -5,7 +5,7 @@ weight = float(input("enter your weight in kg: "))
 
 #Write your code below this line 👇
 
-result = round(weight / (height * height)) # BMI formula + rounding the float number
+result = round(weight / (height ** 2)) # BMI formula + rounding the float number
 
 if result <= 18.5:
     print(f"Your BMI is {result}, you are underweight.")
