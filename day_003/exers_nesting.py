@@ -10,5 +10,6 @@ if height >= 130:
     print('Please pay $7.')
   else:
     print("Please pay $12")
+    
 else:
   print('Sorry, you cannot ride this rollercoaster.')
